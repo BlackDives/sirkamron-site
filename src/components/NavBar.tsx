@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, Text, ListItem, UnorderedList, Link } from '@chakra-ui/react'
+import { Flex, ListItem, UnorderedList, Link } from '@chakra-ui/react'
 
 type LinkType = {
     id: number

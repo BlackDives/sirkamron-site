@@ -50,4 +50,17 @@ const theme = extendTheme({
     },
 })
 
+/* // These are the default breakpoints
+const breakpoints = {
+    base: '0em', // 0px
+    sm: '30em', // ~480px. em is a relative unit and is dependant on the font-size.
+    md: '48em', // ~768px
+    lg: '62em', // ~992px
+    xl: '80em', // ~1280px
+    '2xl': '96em', // ~1536px
+} 
+
+// Internally, we transform to this
+const breakpoints = ['0em', '30em', '48em', '62em', '80em', '96em'] */
+
 export default theme

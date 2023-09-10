@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Flex, Text, Center } from '@chakra-ui/react'
+import { Button, Flex, Text } from '@chakra-ui/react'
 
 const LandingPage = () => {
     return (
@@ -7,6 +7,7 @@ const LandingPage = () => {
             height='100vh'
             backgroundColor='darkMode.background'
             paddingY={10}
+            paddingX={[20]}
         >
             <Flex flexDirection='column'>
                 <Flex flexDirection='column' marginBottom={5}>
@@ -25,7 +26,7 @@ const LandingPage = () => {
                         A Software Engineer
                     </Text>
                 </Flex>
-                <Flex width='50%' marginBottom={5}>
+                <Flex width='50%' marginBottom={16}>
                     <Text color='darkMode.secondary'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nulla eget ante aliquam, laoreet quam eget, malesuada
@@ -45,7 +46,7 @@ const LandingPage = () => {
                         backgroundColor='darkMode.accent'
                         color='darkMode.text'
                     >
-                        View More
+                        Get In Touch
                     </Button>
                 </Flex>
             </Flex>

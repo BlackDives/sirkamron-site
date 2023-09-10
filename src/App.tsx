@@ -1,7 +1,8 @@
 import React from 'react'
 import { Flex } from '@chakra-ui/react'
 import NavBar from './components/NavBar'
-import LandingPage from './components/LandingPage'
+import LandingPage from './sections/LandingPage'
+import Services from './sections/Services'
 
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
             <Flex flexDirection='column' marginX='auto' maxWidth='1536px'>
                 <NavBar />
                 <LandingPage />
+                <Services />
             </Flex>
         </Flex>
     )
