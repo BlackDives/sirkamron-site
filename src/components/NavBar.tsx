@@ -9,9 +9,9 @@ type LinkType = {
 
 const Links: LinkType[] = [
     { id: 1, title: 'Home', path: '#' },
-    { id: 1, title: 'About Me', path: '#' },
-    { id: 1, title: 'Experience', path: '#' },
-    { id: 1, title: 'Contact', path: '#' },
+    { id: 2, title: 'About Me', path: '#' },
+    { id: 3, title: 'Experience', path: '#' },
+    { id: 4, title: 'Contact', path: '#' },
 ]
 
 const NavBar = () => {
