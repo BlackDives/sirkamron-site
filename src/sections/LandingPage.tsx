@@ -12,14 +12,14 @@ const LandingPage = () => {
             <Flex flexDirection='column'>
                 <Flex flexDirection='column' marginBottom={5}>
                     <Text
-                        color='darkMode.text'
+                        color='darkMode.primary'
                         fontSize='6xl'
                         fontWeight='semibold'
                     >
                         Hello, I'm Kam
                     </Text>
                     <Text
-                        color='darkMode.text'
+                        color='darkMode.primary'
                         fontSize='6xl'
                         fontWeight='semibold'
                     >
@@ -27,7 +27,7 @@ const LandingPage = () => {
                     </Text>
                 </Flex>
                 <Flex width='50%' marginBottom={16}>
-                    <Text color='darkMode.secondary'>
+                    <Text color='darkMode.text'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nulla eget ante aliquam, laoreet quam eget, malesuada
                         nisi. Morbi luctus eleifend velit, nec viverra odio
@@ -43,7 +43,7 @@ const LandingPage = () => {
                     <Button
                         width='20%'
                         paddingY={7}
-                        backgroundColor='darkMode.accent'
+                        backgroundColor='darkMode.primary'
                         color='darkMode.text'
                     >
                         Get In Touch

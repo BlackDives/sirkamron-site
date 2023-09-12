@@ -3,19 +3,20 @@ import '@fontsource/roboto'
 
 const theme = extendTheme({
     colors: {
-        darkMode: {
+        old: {
             text: '#f7f0f5',
             background: '#433633',
             primary: '#8f857d',
             secondary: '#5c5552',
             accent: '#ad804f',
         },
-        lightMode: {
-            text: '#433633',
-            background: '#f7f0f5',
-            primary: '#8f857d',
-            secondary: '#fdfcfc',
-            accent: '#ad804f',
+        darkMode: {
+            text: '#FFFFFF',
+            background: '#131313',
+            elevation: '#212121',
+            primary: '#8E5BB9',
+            secondary: '#AF92C3',
+            accent: '#C95DAC',
         },
     },
     fontSizes: {

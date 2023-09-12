@@ -12,18 +12,29 @@ const SkillBox = (props: SkillBoxProps) => {
     return (
         <Flex
             flexDirection='column'
-            height='200px'
-            width='200px'
-            border='2px solid white'
+            backgroundColor='darkMode.elevation'
+            height='100%'
+            width='100%'
+            paddingX={7}
+            paddingY={10}
+            borderRadius={5}
         >
-            <Flex>
-                <Icon as={iconName} />
+            <Flex marginBottom={5}>
+                <Icon as={iconName} boxSize={20} color='darkMode.primary' />
+            </Flex>
+            <Flex marginBottom={5}>
+                <Text
+                    color='darkMode.text'
+                    fontSize='3xl'
+                    fontWeight='semibold'
+                >
+                    {title}
+                </Text>
             </Flex>
             <Flex>
-                <Text>{title}</Text>
-            </Flex>
-            <Flex>
-                <Text>{description}</Text>
+                <Text color='darkMode.text' fontSize='lg'>
+                    {description}
+                </Text>
             </Flex>
         </Flex>
     )
